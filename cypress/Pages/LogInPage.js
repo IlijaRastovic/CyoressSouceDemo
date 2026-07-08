@@ -20,9 +20,8 @@ export class LogInPage {
 
     login(username, password) {
         cy.get('#user-name').clear()
-        
-    }
 
+    }
 
 
 }
