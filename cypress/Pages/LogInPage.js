@@ -15,7 +15,7 @@ export class LogInPage {
     }
 
     get errorMessage() {
-        return cy.get('h3 data-test = "error"')
+        return cy.get('[data-test="error"]')
     }
 
     login(username, password) {
